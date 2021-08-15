@@ -72,14 +72,14 @@ display: block;
 
 .lead {
     margin: 2.0625rem auto 3.75rem;
+    max-width: 1015px;
+    justify-content:space-between;
+    
     
 }
-.lead p {
-    
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-
+.lead p{
+    line-height: 1.75;
+    font-weight: 400;
 }
 
 .lead-logo {
@@ -101,25 +101,25 @@ display: block;
     .colP {
         display: flex;
         justify-content: space-between;
-        width: 50%;
+        max-width: 1015px;
         padding: 10px;
+        font-size: 16px;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
     }
 div{
     display: block;
     }
 
    .lead h1{
-        font-size: 2.125rem;
         color:  #00b39b;
         text-align: center;
-        
-      }
-      h1, h2, h3, h4 {
-        margin: 1em 0;
-        margin-top: 1em;
-        margin-right: 0px;
-        margin-bottom: 1em;
-        margin-left: 0px;
+        font-size: 2em;
         font-family: Work Sans,Arial,sans-serif;
-        font-weight: 300;
-    }
+        letter-spacing: -.3px;
+        margin: .67em 0;
+        margin-top: 0.67em;
+        margin-right: 0px;
+        margin-bottom: 0.67em;
+        margin-left: 0px;
+      }
