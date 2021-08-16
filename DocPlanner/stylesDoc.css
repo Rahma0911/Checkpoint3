@@ -127,30 +127,26 @@ div, section{
     max-width: 990px;
     margin: 2.0625rem auto 3.75rem;
     padding: 0 20px;
+    
 }
-.services h1{
-    color: white;
-}
-.services h2{
-    color: white;
-}
+
 .colS1 {
-    width: 33.33%;
+    width: 25%;
     padding: 2em 2em 0;
-    height: 245px;
+    height: 300px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background: #00ccb1;
-
+    
 
 }
 
 .colS2{
-    width: 33.33%;
+    width: 25%;
     padding: 2em 2em 0;
-    height: 245px;
+    height: 300px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -159,9 +155,9 @@ div, section{
 
 
 }.colS3{
-    width: 33.33%;
+    width: 25%;
     padding: 2em 2em 0;
-    height: 245px;
+    height: 300px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -178,21 +174,49 @@ div, section{
     margin: 2.0625rem auto 3.75rem;
 
 }
-.colS h1{
+.colS1 h1{
     font-size: 1.625em;
     font-weight: 400;
     color: #fff;
-    margin: .3em 0;
+    margin: .67em 0;
     
 }
-.colS h2{
+.colS2 h1{
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: .67em 0;
+    
+}
+.colS3 h1{
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: .67em 0;
+    
+}
+.colS1 h2{
     font-size: 1.5em;
     font-weight: 300;
     line-height: 1.2;
     margin: 0;
     color: #fff;
 }
-.colS select{
+.colS2 h2{
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+}
+.colS3 h2{
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+}
+.colS1 select{
     width: 100%;
     background: transparent;
     border: 0;
@@ -204,7 +228,31 @@ div, section{
     text-decoration: underline;
     cursor: pointer;
 }
-
+.colS2 select{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    -webkit-appearance: none;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.colS3 select{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    -webkit-appearance: none;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+    color:black;
+}
 .brands {
     display: flex;
     margin: 2.0625rem auto 3.75rem;
