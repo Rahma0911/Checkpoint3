@@ -17,8 +17,11 @@ body{
     justify-content:space-between;
     max-width: 1015px;
     margin: 0 auto;
-    
+    background-color: white;
     padding: 1.33em 0;
+    position: sticky;
+    top:0;
+
 }
 
 .navlinks{
@@ -125,7 +128,13 @@ div, section{
     margin: 2.0625rem auto 3.75rem;
     padding: 0 20px;
 }
-.colS {
+.services h1{
+    color: white;
+}
+.services h2{
+    color: white;
+}
+.colS1 {
     width: 33.33%;
     padding: 2em 2em 0;
     height: 245px;
@@ -133,7 +142,41 @@ div, section{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+    background: #00ccb1;
+
+
+}
+
+.colS2{
+    width: 33.33%;
+    padding: 2em 2em 0;
+    height: 245px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #3d83df;
+
+
+}.colS3{
+    width: 33.33%;
+    padding: 2em 2em 0;
+    height: 245px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #1b2734;
+
+}
+.colSD{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2em 2em 0;
+    margin: 2.0625rem auto 3.75rem;
+
 }
 .colS h1{
     font-size: 1.625em;
@@ -195,7 +238,8 @@ div, section{
 .section-stats{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    direction: row;
     max-width: 990px;
     margin: 2.0625rem auto 3.75rem;
     padding: 0 20px;
