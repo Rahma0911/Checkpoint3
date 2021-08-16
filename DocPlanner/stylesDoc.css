@@ -130,7 +130,7 @@ div, section{
     
 }
 
-.colS1 {
+.S1 {
     width: 25%;
     padding: 2em 2em 0;
     height: 300px;
@@ -143,7 +143,7 @@ div, section{
 
 }
 
-.colS2{
+.S2{
     width: 25%;
     padding: 2em 2em 0;
     height: 300px;
@@ -154,7 +154,7 @@ div, section{
     background: #3d83df;
 
 
-}.colS3{
+}.S3{
     width: 25%;
     padding: 2em 2em 0;
     height: 300px;
@@ -165,7 +165,7 @@ div, section{
     background: #1b2734;
 
 }
-.colSD{
+.SDiv{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -174,49 +174,49 @@ div, section{
     margin: 2.0625rem auto 3.75rem;
 
 }
-.colS1 h1{
+.S1 h1{
     font-size: 1.625em;
     font-weight: 400;
     color: #fff;
     margin: .67em 0;
     
 }
-.colS2 h1{
+.S2 h1{
     font-size: 1.625em;
     font-weight: 400;
     color: #fff;
     margin: .67em 0;
     
 }
-.colS3 h1{
+.S3 h1{
     font-size: 1.625em;
     font-weight: 400;
     color: #fff;
     margin: .67em 0;
     
 }
-.colS1 h2{
+.S1 h2{
     font-size: 1.5em;
     font-weight: 300;
     line-height: 1.2;
     margin: 0;
     color: #fff;
 }
-.colS2 h2{
+.S2 h2{
     font-size: 1.5em;
     font-weight: 300;
     line-height: 1.2;
     margin: 0;
     color: #fff;
 }
-.colS3 h2{
+.S3 h2{
     font-size: 1.5em;
     font-weight: 300;
     line-height: 1.2;
     margin: 0;
     color: #fff;
 }
-.colS1 select{
+.S1 select{
     width: 100%;
     background: transparent;
     border: 0;
@@ -228,7 +228,7 @@ div, section{
     text-decoration: underline;
     cursor: pointer;
 }
-.colS2 select{
+.S2 select{
     width: 100%;
     background: transparent;
     border: 0;
@@ -240,7 +240,7 @@ div, section{
     text-decoration: underline;
     cursor: pointer;
 }
-.colS3 select{
+.S3 select{
     width: 100%;
     background: transparent;
     border: 0;
