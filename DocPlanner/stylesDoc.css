@@ -20,10 +20,6 @@ body{
     margin: 0 auto;
     position: relative;
     padding: 1.33em 0;
-    padding-top: 1.33em;
-    padding-right: 0px;
-    padding-bottom: 1.33em;
-    padding-left: 0px;
     
 }
 .navlinks{
@@ -111,18 +107,53 @@ div, section{
         font-family: Work Sans,Arial,sans-serif;
         letter-spacing: -.3px;
         margin: .67em 0;
-        margin-top: 0.67em;
-        margin-right: 0px;
-        margin-bottom: 0.67em;
-        margin-left: 0px;
       }
-.services{
-        display: flex;
-        justify-content: space-between;
-        max-width: 1015px;
-        padding: 10px;
-}
 
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    max-width: 990px;
+    margin: 2.0625rem auto 3.75rem;
+    padding: 0 20px;
+}
+.colS {
+    width: 33.33%;
+    padding: 2em 2em 0;
+    height: 245px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.colS h1{
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: .3em 0;
+    
+}
+.colS h2{
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+}
+.colS select{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    -webkit-appearance: none;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 .brands {
     display: flex;
@@ -131,6 +162,7 @@ div, section{
     justify-content:space-between;
     padding: 0 20px;
 }
+
 .brands-logos {
     display: flex;
     flex-wrap: wrap;
@@ -141,12 +173,7 @@ div, section{
     justify-content:space-between;
 
 }
-.brands-logos li {
-    font-size: 1rem;
-    display: inline-block;
-    width: 160px;
-    padding: 5px 0;
-}
+
 .brands-logos a {
     display: inline-block;
     padding: 5px 0;
@@ -154,6 +181,10 @@ div, section{
     color: #3d83df;
     background-color: transparent;
 }
+.brands-logos li{
+
+}
+
 
 .stats {
     background: #e5faf8;
@@ -162,13 +193,8 @@ div, section{
     overflow: hidden;
     margin: 3.125rem auto 5.5rem;
 }
-.status-item{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1015px;
-    margin: 2.0625rem auto 3.75rem;
-    padding: 0 20px;
-}
+
+
 
 .join-us {
     max-width: 520px;
